@@ -9,16 +9,19 @@
 <html>
 <head>
     <title>Title</title>
+    <link
 </head>
 <body>
 <form:form commandName="user" method="post">
 
     <form:input type="text" path="username"/>
     <form:input type="password" path="password"/>
+    <form:input type="text" path="email" />
+    <form:input type="text" path="age" />
+    <%--<form:input type="text" path="jiji" />--%>
     <button type="submit">Submit</button>
 
 </form:form>
 
-<c:
 </body>
 </html>
